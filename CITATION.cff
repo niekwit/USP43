@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: USP43
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Niek
+    family-names: Wit
+    email: nw416@cam.ac.uk
+    affiliation: University of Cambridge
+    orcid: https://orcid.org/0009-0002-4330-5333
+
+repository-code: 'https://github.com/niekwit/USP43'
+license: GPL-3.0
+version: 1.2.0
+doi: 10.5281/zenodo.10229340
