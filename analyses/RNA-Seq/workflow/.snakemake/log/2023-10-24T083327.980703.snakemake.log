@@ -1,0 +1,3 @@
+WorkflowError in file /mnt/4TB_SSD/analyses/Projects/USP43/RNA-Seq/workflow/Snakefile, line 10:
+Workflow defines configfile config/config.yaml but it is not present or accessible (full checked path: /mnt/4TB_SSD/analyses/Projects/USP43/RNA-Seq/workflow/config/config.yaml).
+  File "/mnt/4TB_SSD/analyses/Projects/USP43/RNA-Seq/workflow/Snakefile", line 10, in <module>

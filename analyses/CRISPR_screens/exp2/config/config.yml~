@@ -1,0 +1,26 @@
+lib_info:
+    sg_length: 20
+    vector: ""
+    left_trim : 0 # trim n bases from 5' end of reads
+mismatch: 0 # mismatches allowed during alignment
+stats: 
+  skip: bagel2 # skip mageck, bagel2, both, or none
+  extra_mageck_arguments: "" #extra arguments for mageck
+  mageck_control_genes: all #all or file with control genes
+  fdr: 0.25 #FDR threshold for mageck
+resources: #computing resources
+  account: XXX 
+  partition: cclake
+  max_jobs: 100
+  trim:
+    cpu: 4
+    time: 60 # only for running on HPC
+  fastqc:
+    cpu: 4
+    time: 60
+  count:
+    cpu: 8
+    time: 120
+  stats:
+    cpu: 1
+    time: 60
